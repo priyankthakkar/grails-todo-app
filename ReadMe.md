@@ -1,6 +1,6 @@
-This grails application is crated with help of grail-cli with rest-api profile.
+This grails application is crated with help of grails-cli and rest-api profile.
 
-It has a simple Todo model holding 3 attributes title, description & done (status) & a TodoController exposing endpoints to retrive, add, update, delete & search Todo items.
+It has a simple Todo model holding 3 attributes title, description & done (status) & a TodoController exposing endpoints to retrieve, add, update, delete & search Todo items.
 
 The master branch is a plain  grails application created from scratch in pristine condition. The code is added over the new branch todo-branch. More branches will added as I am planning to add spring-security, spring-session and liquibase to this application and same will be updated in this readme file.
 
