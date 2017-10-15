@@ -1,0 +1,12 @@
+import io.priyank.grails.Todo
+
+model {
+	Todo todo
+}
+
+json{
+	id todo.id
+	title todo.title
+	description todo.description
+	done todo.done?'DONE':'PENDING'
+}

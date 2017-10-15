@@ -1,0 +1,8 @@
+import io.priyank.grails.Todo
+
+model {
+	Iterable<Todo> todoList
+}
+
+json tmpl.todo(todoList ?: [])
+
